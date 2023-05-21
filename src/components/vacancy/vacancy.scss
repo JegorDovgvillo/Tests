@@ -1,0 +1,83 @@
+.item {
+    display: flex;
+    background: #ffffff;
+    border: 1px solid #eaebed;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    width: 773px;
+    justify-content: space-between;
+    svg {
+        overflow: inherit;
+        margin: 25px 25px 0 0;
+    }
+    .item__wrap {
+        padding: 24px;
+        width: -webkit-fill-available;
+    }
+    .item__title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12.5px;
+        h3 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #5e96fc;
+            margin: 0;
+        }
+    }
+    .item__info {
+        display: flex;
+        margin-bottom: 13px;
+        align-items: center;
+        .item__info-salary {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            color: #232134;
+        }
+        .item__info-type {
+            display: flex;
+            align-items: center;
+        }
+        h4 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #232134;
+            margin: 0;
+        }
+        .technical {
+            width: 7px;
+            height: 7px;
+            background-color: #7b7c88;
+            border-radius: 100%;
+            margin: 0 12px;
+        }
+    }
+    .item__location {
+        display: flex;
+        img {
+            margin-right: 11.33px;
+        }
+        h4 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #232134;
+            margin: 0;
+        }
+    }
+    :last-child {
+        color: #5e96fc;
+    }
+}

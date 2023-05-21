@@ -1,0 +1,14 @@
+@media only all and (max-width: 800px) {
+    .information {
+        p,
+        b {
+            font-size: 17px;
+        }
+        li {
+            font-size: 14px;
+        }
+        .information-list__wrap {
+            width: -webkit-fill-available;
+        }
+    }
+}

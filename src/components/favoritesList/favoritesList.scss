@@ -1,0 +1,11 @@
+.favorites {
+    min-height: 800px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f6;
+    .buttons {
+        padding-top: 88px;
+    }
+}

@@ -1,0 +1,12 @@
+body {
+  overflow-x: hidden;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 320px;
+  background-color: #eaebed;
+}
+@media only all and (max-width: 1300px) {
+  body {
+    width: auto;
+  }
+}

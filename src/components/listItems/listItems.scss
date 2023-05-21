@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    background-color: #f5f5f6;
+    padding-top: 40px;
+    justify-content: center;
+    min-height: 800px;
+    .list-vacancies {
+        .search-wrap {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 12px;
+            gap: 10px;
+            background: #ffffff;
+            border: 1px solid #eaebed;
+            border-radius: 8px;
+            margin-bottom: 16px;
+            width: 750px;
+            button {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 4px 20px;
+                gap: 10px;
+                background: #5e96fc;
+                border-radius: 8px;
+                margin: 8px 12px;
+                border: none;
+                p {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #ffffff;
+                    margin: 0;
+                }
+            }
+            input {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: #acadb9;
+                width: -webkit-fill-available;
+                border: none;
+                outline-color: transparent;
+            }
+        }
+    }
+}

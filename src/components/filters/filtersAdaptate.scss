@@ -1,0 +1,56 @@
+@media only all and (max-width: 1200px) {
+    .filters {
+        margin-right: 0px;
+        width: 733px;
+        .filters__wrap form {
+            select {
+                width: -webkit-fill-available;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 800px) {
+    .filters {
+        width: -webkit-fill-available;
+    }
+}
+
+@media only all and (max-width: 600px) {
+    .filters {
+        .filters__wrap form {
+            select {
+                background: url("../../images/selectArrow.svg") no-repeat 93%;
+            }
+        }
+    }
+}
+
+@media only all and (max-width: 400px) {
+    .filters {
+        .filters__wrap {
+            form {
+                select {
+                    background: url("../../images/selectArrow.svg") no-repeat 90%;
+                }
+            }
+            .filters__header {
+                flex-direction: column;
+                h4 {
+                    margin-bottom: 15px;
+                }
+                button {
+                    margin-left: 0px;
+                    p {
+                        margin: 0 10px 0 0;
+                    }
+                }
+            }
+            form {
+                select {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

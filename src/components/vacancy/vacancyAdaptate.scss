@@ -1,0 +1,40 @@
+@media only all and (max-width: 800px) {
+    .item {
+        width: -webkit-fill-available;
+    }
+}
+
+@media only all and (max-width: 600px) {
+    .item .item__info {
+        align-items: flex-start;
+        flex-direction: column;
+        .technical {
+            margin: 0 12px 0 0;
+        }
+    }
+}
+
+@media only all and (max-width: 400px) {
+    .item {
+        width: fit-content;
+        .item__wrap {
+            width: 210px;
+            .item__title {
+                h3 {
+                    font-size: 18px;
+                }
+            }
+            .item__info-salary {
+                font-size: 15px;
+            }
+            h4 {
+                font-size: 15px;
+            }
+        }
+        .item__location {
+            h4 {
+                font-size: 15px;
+            }
+        }
+    }
+}

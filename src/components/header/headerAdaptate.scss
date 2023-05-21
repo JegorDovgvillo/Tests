@@ -1,0 +1,33 @@
+@media only all and (max-width: 1300px) {
+    .header {
+        padding: 10px 60px;
+    }
+}
+
+@media only all and (max-width: 1200px) {
+    .header {
+        padding: 10px 60px;
+    }
+}
+
+@media only all and (max-width: 900px) {
+    .header {
+        flex-direction: column;
+        gap: 0px;
+        .header__nav {
+            padding-top: 15px;
+        }
+    }
+}
+
+@media only all and (max-width: 500px) {
+    .header {
+        .header__nav {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+    }
+}

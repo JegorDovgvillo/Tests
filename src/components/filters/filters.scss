@@ -1,0 +1,98 @@
+.filters {
+    border: solid 1px #eaebed;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    height: fit-content;
+    margin-right: 28px;
+    .filters__wrap {
+        .filters__header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 32px;
+            flex-direction: row;
+            padding: 0px;
+            h4 {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                color: #232134;
+                margin: 0;
+            }
+            button {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                border: none;
+                color: #acadb9;
+                padding: 0;
+                margin-left: 65px;
+                p {
+                    margin: 0;
+                }
+            }
+        }
+        form {
+            h4 {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 19px;
+                color: #232134;
+            }
+            select {
+                background: url("../../images/selectArrow.svg") no-repeat 96%;
+                appearance: none;
+                width: 275px;
+                padding: 12.5px 32px 12.5px 12px;
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 20px;
+                display: flex;
+                align-items: center;
+                border-radius: 8px;
+                border-color: #acadb9;
+                color: #acadb9;
+                outline-color: #acadb9;
+                margin-bottom: 20px;
+            }
+
+            h4 {
+                margin: 0;
+                margin-bottom: 8px;
+            }
+            button {
+                margin-top: 20px;
+                background: #5e96fc;
+                border-radius: 8px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 9px;
+                width: -webkit-fill-available;
+                border: none;
+                p {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 21px;
+                    text-align: center;
+                    color: #ffffff;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
