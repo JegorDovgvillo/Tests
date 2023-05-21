@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/startup-summer/static/css/main.1045ac6a.css",
+    "main.js": "/startup-summer/static/js/main.6471af59.js",
+    "static/media/emty.svg": "/startup-summer/static/media/emty.e971983585ef9132b066d5ec6b8321e4.svg",
+    "static/media/Icon.svg": "/startup-summer/static/media/Icon.26339c63f9652343d49a9709a6bc6740.svg",
+    "static/media/Union.svg": "/startup-summer/static/media/Union.7e07a45d78062ef26fb8e6481d8c6e0c.svg",
+    "index.html": "/startup-summer/index.html",
+    "static/media/cross.svg": "/startup-summer/static/media/cross.3270f4ba631933185d07601f93ac7104.svg",
+    "static/media/downArrow.svg": "/startup-summer/static/media/downArrow.0df823e39be34a785ce653caa9424232.svg",
+    "static/media/upArrow.svg": "/startup-summer/static/media/upArrow.060dfb2e227e0afd7fde9bc6b3a8f19a.svg",
+    "static/media/selectArrow.svg": "/startup-summer/static/media/selectArrow.0a65a3fce9c6155adeb8.svg",
+    "static/media/rightArrow.svg": "/startup-summer/static/media/rightArrow.ee050b6a3fb71b2fc4071352283f0e28.svg",
+    "static/media/leftArrow.svg": "/startup-summer/static/media/leftArrow.21272963cfa14de263907462eea678bc.svg",
+    "main.1045ac6a.css.map": "/startup-summer/static/css/main.1045ac6a.css.map",
+    "main.6471af59.js.map": "/startup-summer/static/js/main.6471af59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1045ac6a.css",
+    "static/js/main.6471af59.js"
+  ]
+}
