@@ -16,6 +16,11 @@ const Vacancy = ({ title, paymentFrom, currency, paymentTo, typeOfWork, city,
     const dispatch = useDispatch()
     const navigate = useNavigate()
 
+    let className = 'item__info-salary';
+    if (!paymentFrom && !paymentTo) {
+        className += ' empty'
+    }
+
     const toFavorites = (id) => {
         const item = {
             title,
@@ -67,11 +72,11 @@ const Vacancy = ({ title, paymentFrom, currency, paymentTo, typeOfWork, city,
                     <h3>{title}</h3>
                 </div>
                 <div className='item__info'>
-                    <h4 className='item__info-salary'>
+                    <h4 className={className}>
                         {(paymentFrom === 0) ? null : (paymentTo === 0) ?
-                            `з/п ${paymentFrom} ${currency} ` : `з/п от ${paymentFrom} - `}
+                            `з/п от ${paymentFrom} ${currency} ` : `з/п ${paymentFrom} - `}
                         {(paymentTo === 0) ? null : (paymentFrom === 0) ?
-                            `з/п до ${paymentTo} ${currency}` : `до ${paymentTo} ${currency}`}</h4>
+                            `з/п до ${paymentTo} ${currency}` : `${paymentTo} ${currency}`}</h4>
                     <div className='item__info-type'>
                         <div className='technical'></div>
                         <h4>{typeOfWork}</h4>

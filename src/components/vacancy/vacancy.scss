@@ -40,6 +40,10 @@
             font-size: 16px;
             line-height: 20px;
             color: #232134;
+            margin-right: 12px;
+        }
+        .item__info-salary.empty {
+            display: none;
         }
         .item__info-type {
             display: flex;
@@ -59,7 +63,7 @@
             height: 7px;
             background-color: #7b7c88;
             border-radius: 100%;
-            margin: 0 12px;
+            margin: 0 12px 0 0;
         }
     }
     .item__location {
@@ -79,5 +83,8 @@
     }
     :last-child {
         color: #5e96fc;
+    }
+    svg:hover {
+        cursor: pointer;
     }
 }

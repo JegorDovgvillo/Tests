@@ -10,7 +10,7 @@
         flex-direction: column;
         align-items: center;
         padding-left: 0px;
-        .list-vacancies {
+        .list {
             padding-top: 40px;
         }
     }
@@ -19,8 +19,13 @@
 @media only all and (max-width: 800px) {
     .container {
         padding: 40px 20px;
-        .list-vacancies .search-wrap {
-            width: auto;
+        .list {
+            .list__vacancies {
+                height: auto;
+            }
+            .list__search {
+                width: auto;
+            }
         }
     }
 }
@@ -28,11 +33,11 @@
 @media only all and (max-width: 400px) {
     .container {
         padding: 40px 10px;
-        .list-vacancies {
+        .list {
             display: flex;
             flex-direction: column;
             align-items: center;
-            .search-wrap {
+            .list__search {
                 width: 280px;
 
                 button {

@@ -4,6 +4,9 @@ body {
   max-width: 1440px;
   min-width: 320px;
   background-color: #eaebed;
+  button:hover {
+    cursor: pointer;
+  }
 }
 @media only all and (max-width: 1300px) {
   body {

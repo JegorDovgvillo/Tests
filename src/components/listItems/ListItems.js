@@ -98,8 +98,8 @@ const ListItems = () => {
                 navigate('/emptyPage') :
                 <div className="container">
                     <Filters term={term} />
-                    <div className='list-vacancies'>
-                        <div className='search-wrap'>
+                    <div className='list'>
+                        <div className='list__search'>
                             <img src={Search} alt='search' />
                             <input placeholder='Введите название вакансии'
                                 data-elem="search-input" value={term}
@@ -114,7 +114,9 @@ const ListItems = () => {
                         {(loadingStatus === 'loading') ?
                             <Spinner /> :
                             <>
-                                {listVacancies}
+                                <div className='list__vacancies'>
+                                    {listVacancies}
+                                </div>
                                 <ButtonGroup
                                     nextPageOnArrow={nextPageOnArrow}
                                     currentPage={currentPage}

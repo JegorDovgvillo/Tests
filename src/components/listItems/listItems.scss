@@ -4,8 +4,11 @@
     padding-top: 40px;
     justify-content: center;
     min-height: 800px;
-    .list-vacancies {
-        .search-wrap {
+    .list {
+        .list__vacancies {
+            height: 640px;
+        }
+        .list__search {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
